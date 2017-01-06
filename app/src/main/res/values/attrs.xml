@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lockViewAttr">
+        <attr name="rowNum" format="integer" />
+        <attr name="colNum" format="integer" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="pointColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="useVibrator" format="boolean"/>
+    </declare-styleable>
+</resources>

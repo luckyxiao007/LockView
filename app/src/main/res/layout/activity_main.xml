@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xiao.lockview.MainActivity">
+    <xiao.lockview.LockView.LockView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        my:rowNum="4"
+        my:colNum="4"
+        my:backgroundColor="#b90606"
+        my:pointColor="#07d507"
+        my:lineColor="#000000"
+        android:id="@+id/lockView" />
+</RelativeLayout>
